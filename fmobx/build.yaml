@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      mobx_codegen|mobx_generator:
+        enabled: true
+        generate_for:
+          - lib/data/cart_store.dart
